@@ -1,7 +1,7 @@
-package com.example.toyproject.domain.user.exception;
+package com.example.icetabetaiBackend.domain.user.exception;
 
-import com.example.toyproject.global.error.ErrorCode;
-import com.example.toyproject.global.error.exception.CustomException;
+import com.example.icetabetaiBackend.global.error.ErrorCode;
+import com.example.icetabetaiBackend.global.error.exception.CustomException;
 
 public class UserNotFoundException extends CustomException {
     public static final CustomException EXCEPTION = new UserNotFoundException();
