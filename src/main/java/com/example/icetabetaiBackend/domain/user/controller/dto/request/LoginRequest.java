@@ -1,4 +1,4 @@
-package com.example.toyproject.domain.user.controller.dto.request;
+package com.example.icetabetaiBackend.domain.user.controller.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
