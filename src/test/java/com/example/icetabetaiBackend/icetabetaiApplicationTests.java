@@ -1,10 +1,10 @@
-package com.example.toyproject;
+package com.example.icetabetaiBackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ToyprojectApplicationTests {
+class icetabetaiApplicationTests {
 
     @Test
     void contextLoads() {
