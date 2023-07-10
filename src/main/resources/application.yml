@@ -6,7 +6,7 @@ spring:
   mail:
     host: smtp.naver.com
     port: 465
-    username: ori0o0p
+    username: abcdef
     password: abcdef
     properties:
       debug: true
