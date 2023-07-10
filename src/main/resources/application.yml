@@ -1,0 +1,24 @@
+auth:
+  jwt:
+    secret: UsadaPekora
+
+spring:
+  mail:
+    host: smtp.naver.com
+    port: 465
+    username: ori0o0p
+    password: abcdef
+    properties:
+      debug: true
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+      smtp:
+        ssl:
+          trust: smtp.naver.com
+
+

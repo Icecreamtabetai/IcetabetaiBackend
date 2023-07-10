@@ -22,11 +22,24 @@ repositories {
 }
 
 dependencies {
+    // jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
+
+    // web
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // email auth
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+    // security
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+
+    //lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 }

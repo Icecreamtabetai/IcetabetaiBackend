@@ -1,4 +1,4 @@
-package com.example.toyproject.global.jwt;
+package com.example.icetabetaiBackend.global.jwt;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

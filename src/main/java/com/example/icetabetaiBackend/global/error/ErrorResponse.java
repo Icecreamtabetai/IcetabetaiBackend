@@ -1,4 +1,4 @@
-package com.example.toyproject.global.error;
+package com.example.icetabetaiBackend.global.error;
 
 import lombok.Getter;
 

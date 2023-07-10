@@ -1,4 +1,4 @@
-package com.example.toyproject.global.email;
+package com.example.icetabetaiBackend.global.email;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.InternetAddress;

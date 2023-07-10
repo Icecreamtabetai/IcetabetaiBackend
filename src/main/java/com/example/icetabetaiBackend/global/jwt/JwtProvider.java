@@ -1,4 +1,4 @@
-package com.example.toyproject.global.jwt;
+package com.example.icetabetaiBackend.global.jwt;
 
 
 import io.jsonwebtoken.Jwts;

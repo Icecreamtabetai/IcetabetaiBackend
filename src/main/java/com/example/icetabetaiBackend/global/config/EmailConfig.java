@@ -1,4 +1,4 @@
-package com.example.toyproject.global.config;
+package com.example.icetabetaiBackend.global.config;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
