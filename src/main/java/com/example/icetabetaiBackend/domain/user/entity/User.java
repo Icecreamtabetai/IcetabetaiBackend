@@ -1,4 +1,4 @@
-package com.example.toyproject.domain.user.entity;
+package com.example.icetabetaiBackend.domain.user.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
