@@ -1,9 +1,9 @@
-package com.example.toyproject.domain.user.controller;
+package com.example.icetabetaiBackend.domain.user.controller;
 
-import com.example.toyproject.domain.user.controller.dto.request.LoginRequest;
-import com.example.toyproject.domain.user.controller.dto.request.SignupRequest;
-import com.example.toyproject.domain.user.controller.dto.response.TokenResponse;
-import com.example.toyproject.domain.user.service.AuthService;
+import com.example.icetabetaiBackend.domain.user.controller.dto.request.LoginRequest;
+import com.example.icetabetaiBackend.domain.user.controller.dto.request.SignupRequest;
+import com.example.icetabetaiBackend.domain.user.controller.dto.response.TokenResponse;
+import com.example.icetabetaiBackend.domain.user.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +23,5 @@ public class UserController {
     public TokenResponse login(@RequestBody LoginRequest request) {
         return authService.Login(request);
     }
-
-
 
 }
